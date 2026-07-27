@@ -86,7 +86,7 @@ fälschlich verwarf. Behoben durch korrektes Auslesen der Absender-ID aus der
 Nachricht selbst. Genau der Grund, warum "sollte funktionieren" durch "läuft
 nachweislich" ersetzt werden muss.
 
-## Grenzen — ehrlich benannt
+## Grenzen 
 
 - **Speicherwachstum:** Tombstones (`_removes`) werden nie aufgeräumt. Für
   eine Demo unerheblich, in Produktion bräuchte man Garbage Collection
